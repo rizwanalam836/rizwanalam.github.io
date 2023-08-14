@@ -1,39 +1,76 @@
-# React-Portfolio App
+<h2 align="center">
+  Portfolio Website - v2.0<br/>
+  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+</h2>
+<div align="center">
+  <img alt="Demo" src="./Images/readme-img1.png" />
+</div>
 
-  
+<br/>
 
-Personal portfolio page [www.fdaviz.com](https://www.fdaviz.com/) built in React.
+<center>
 
-  
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
+![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
+![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
 
-## Building Process
+</center>
 
-1. Installed [New React App](https://reactjs.org/docs/create-a-new-react-app.html) using Node JS.
+<h3 align="center">
+    🔹
+    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    🔹
+    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
+</h3>
 
-2. Migrated my [VanillaJS Portfolio Version](https://github.com/kodi24fever/vanillajs-portfolio) and migrated it into a new React Application.
+## TL;DR
 
-3. The first approach was to use libraries to create animations because creating my own was time consuming. For that reason, I decided to use [Wow.js](https://wowjs.uk/) and [Animate.css](https://daneden.github.io/animate.css/) libraries.
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
 
-4. Used React Props to manage components references in the application and share components details to create [SmoothScroll](https://css-tricks.com/snippets/jquery/smooth-scrolling/) usign my own code.
+## Built With
 
-5. Most of the page uses Bootstrap, except for the modal gallery that has my own CSS3 flex-box code.
+My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
-6. Created different modals for the gallery project and using [React Event Handlers](https://reactjs.org/docs/handling-events.html) I could show each project modal.
+This project was built using these technologies.
 
-7. The form uses [formsfree.io](https://formspree.io/) for the backend submission.
+- React.js
+- Node.js
+- Express.js
+- CSS3
+- VsCode
+- Vercel
 
-8. I used images from [unsplash](https://unsplash.com) which are free to use and icons from [flaticon](https://www.flaticon.com/) which are also free to use.
+## Features
 
-9. I wanted to create an amazing animated background at the top of the page, so I used some help from [codepen.io](https://codepen.io/saransh/pen/BKJun) and adapted the code to my website.
+**📖 Multi-Page Layout**
 
-## Challenges that took me some time to solve
+**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
 
-1. Implementing Wow.js + Animate.css was difficult at the beginning, but worth it. It takes time to make it work with your app, yet it takes less time than building your won libraries.
+**📱 Fully Responsive**
 
-2. 2.Sharing DOM component details such as height, offsetTops, etc, between other components was a bit difficult because [React Refs](https://reactjs.org/docs/refs-and-the-dom.html) had to match parent containers' ids. That took me the long time to figure out.
+## Getting Started
 
-3. After using Bootstrap for a while I had to re learn some CSS3 tricks like flex-box and how to use @keyframes + animation.
+Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
 
-## Conclusion
+## 🛠 Installation and Setup Instructions
 
-Thanks for visiting my react-portfolio-website and for taking time to read this!
+1. Installation: `npm install`
+
+2. In the project directory, you can run: `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The page will reload if you make edits.
+
+## Usage Instructions
+
+Open the project folder and Navigate to `/src/components/`. <br/>
+You will find all the components used and you can edit your information accordingly.
+
+### Show your support
+
+Give a ⭐ if you like this website!
+
+<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
